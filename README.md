@@ -13,7 +13,7 @@
 1. **ESP32 DevKit V1** (1 board)
 2. **Button 4 pins** (1 cái)
 3. **LED 5mm** (1 cái)
-4. **Điện trở 220Ω - 330Ω** (1 cái)
+4. **Điện trở 1kΩ** (1 cái)
 5. **Breadboard & Dây cắm**
 
 ---
