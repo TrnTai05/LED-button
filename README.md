@@ -4,8 +4,8 @@
 
 # Tính năng
 
-- **Nhấn đơn (Single Click):** Bật hoặc Tắt LED (Toggle).
-- **Nhấn kép (Double Click):** Bật chế độ nhấp nháy LED với chu kỳ 250ms.
+- **Nhấn đơn :** Bật hoặc Tắt LED.
+- **Nhấn kép :** Bật chế độ nhấp nháy LED với chu kỳ 250ms.
 ---
 
 # Phần cứng
@@ -25,10 +25,11 @@ D4 - led(-) - led(+) - R(1k) - 3.3v
 
 ```text
 One_button/
+├── .vscode/
 ├── include/
-│   └── LED.h          # Thư viện lớp đối tượng quản lý LED
+│   └── LED.h          
 ├── src/
-│   └── main.cpp       # Chương trình chính (setup & loop)
+│   └── main.cpp      
 ├── .gitignore
-├── platformio.ini     # Cấu hình môi trường PlatformIO & Thư viện
-└── README.md          # Tài liệu hướng dẫn dự án
+├── platformio.ini     
+└── README.md         
