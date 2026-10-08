@@ -3,16 +3,13 @@
 
 ---
 
-## 📌 Tính năng chính
+# Tính năng
 
 - **Nhấn đơn (Single Click):** Bật hoặc Tắt LED (Toggle).
-- **Nhấn kép (Double Click):** Bật chế độ nhấp nháy LED với chu kỳ 200ms.
-- **Kiến trúc mã nguồn mở rộng (OOP):** Tách biệt logic quản lý LED (`LED.h`) giúp mã nguồn trong `main.cpp` gọn gàng và dễ bảo trì.
-- **Xử lý bất đồng bộ (Non-blocking):** Không sử dụng `delay()`, đảm bảo nút nhấn luôn phản hồi tức thì.
-
+- **Nhấn kép (Double Click):** Bật chế độ nhấp nháy LED với chu kỳ 250ms.
 ---
 
-Phần cứng
+# Phần cứng
 1. **ESP32 DevKit V1** (1 board)
 2. **Button 4 pins** (1 cái)
 3. **LED 5mm** (1 cái)
@@ -23,17 +20,9 @@ Phần cứng
 
 Sơ đồ kết nối
 D21 - Button - GND
-D4 - led(-) - led(+) - R(1k, 1/4w) - 3.3v
-### 1. Mạch LED (Cấu hình Active LOW)
-- **Chân Anode (+ / Chân dài) LED:** Nối vào chân **3.3V** của ESP32.
-- **Chân Cathode (- / Chân ngắn) LED:** Nối qua điện trở 220Ω vào chân **GPIO 5 (D5)** của ESP32.
+D4 - led(-) - led(+) - R(1k) - 3.3v
 
-> *Lưu ý: Do mạch cấu hình Active LOW, khi GPIO 5 ở mức LOW (0V) thì LED sẽ SÁNG, khi ở mức HIGH (3.3V) thì LED sẽ TẮT.*
-
-
----
-
-##Thư mục dự án
+# Thư mục dự án
 
 ```text
 One_button/
