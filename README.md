@@ -1,6 +1,5 @@
 ﻿# LED-button
-Điều khiển LED ngoài kết nối với board **ESP32 DevKit V1** sử dụng nút nhấn thông qua thư viện **OneButton** và cấu trúc lập trình hướng đối tượng (OOP) với lớp `LED`.
-
+Điều khiển LED ngoài kết nối với board **ESP32 DevKit V1** sử dụng nút nhấn thông qua thư viện **OneButton** để điều khiển trạng thái đèn LED
 ---
 
 # Tính năng
